@@ -185,6 +185,7 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="LogicUnit.h" />
     <ClInclude Include="lomulator.h" />
     <ClInclude Include="lomulatorDoc.h" />
     <ClInclude Include="lomulatorView.h" />
@@ -194,6 +195,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="LogicUnit.cpp" />
     <ClCompile Include="lomulator.cpp" />
     <ClCompile Include="lomulatorDoc.cpp" />
     <ClCompile Include="lomulatorView.cpp" />
@@ -220,4 +222,9 @@
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="lomulator.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
 </Project>
